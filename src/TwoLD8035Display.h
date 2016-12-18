@@ -23,7 +23,8 @@ enum Character:byte {
 	F 	= DIGIT_DEF(1,0,0,0,1,1,1),
 	E 	= DIGIT_DEF(1,0,0,1,1,1,1),
 	U 	= DIGIT_DEF(0,1,1,1,1,1,0),
-	L 	= DIGIT_DEF(0,0,0,1,1,1,0)
+	L 	= DIGIT_DEF(0,0,0,1,1,1,0),
+	P 	= DIGIT_DEF(1,1,0,0,1,1,1)
 };
 
 enum Vfd:byte {V1 = 8, V2 = 9};
